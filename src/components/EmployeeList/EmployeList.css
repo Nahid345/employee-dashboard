@@ -1,0 +1,11 @@
+.employee-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.employee-title {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+}

@@ -9,6 +9,12 @@ import { MdMessage } from "react-icons/md";
 import { FaUsers } from "react-icons/fa";
 import { FaUsersGear } from "react-icons/fa6";
 import { TbUsersGroup } from "react-icons/tb";
+import img1 from "../image/image1.jpg";
+import img2 from "../image/images 2.jpg";
+import img3 from "../image/images (3).jpg";
+import img4 from "../image/images 4.jpg";
+import img5 from "../image/images5.jpg";
+import img7 from "../image/image7.jpg";
 
 export const SidebarData = [
   {
@@ -86,5 +92,46 @@ export const CardsData = [
       boxShadow: "0px 10px 20px 0px #F9D59B",
     },
     png: TbUsersGroup,
+  },
+];
+
+//
+export const EmployeeData = [
+  {
+    id: 1,
+    name: "John Doe",
+    position: "Software Engineer",
+    image: img1,
+  },
+  {
+    id: 2,
+    name: "Jane Smith",
+    position: "UI/UX Designer",
+    image: img2,
+  },
+  {
+    id: 3,
+    name: "Mike John",
+    position: "Sr. Software Engineer",
+    image: img3,
+  },
+  {
+    id: 4,
+    name: "Emily Davis",
+    position: "Junior Developer",
+    image: img4,
+  },
+  {
+    id: 5,
+    name: "Sarah Brown",
+    position: "Lead Marketing",
+    image: img5,
+  },
+
+  {
+    id: 7,
+    name: "Moris ",
+    position: "Sr. Product manager",
+    image: img7,
   },
 ];

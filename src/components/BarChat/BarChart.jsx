@@ -98,7 +98,7 @@ export default class Example extends PureComponent {
 
 const containerStyle = {
   width: "86%",
-  height: "525px",
+  height: "645px",
   padding: "20px",
   boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
   borderRadius: "10px",
