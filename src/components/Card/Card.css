@@ -1,0 +1,42 @@
+.card {
+  width: 85%;
+  height: 140px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.icon {
+  font-size: 30px;
+  color: whitesmoke;
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.card-value {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.previous-value {
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.previous-value span {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    gap: 10px;
+  }
+}

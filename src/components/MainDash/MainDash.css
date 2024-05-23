@@ -1,0 +1,19 @@
+.maindashContainer h1 {
+  font-size: 30px;
+  margin-left: 20px;
+  font-weight: 700;
+}
+.maindashContainer h1 span {
+  color: blue;
+}
+
+.maindashContainer {
+  padding: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .maindashContainer {
+    justify-content: flex-start;
+    margin-top: 2rem;
+  }
+}
